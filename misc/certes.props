@@ -4,7 +4,7 @@
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
     <LangVersion>Latest</LangVersion>
     <SignAssembly>true</SignAssembly>
-    <PublicSign Condition="'$(TargetFramework)' != 'net462'">True</PublicSign>
+    <PublicSign Condition="'$(TargetFramework)' != 'net48'">True</PublicSign>
     <AssemblyOriginatorKeyFile>../../misc/certes.snk</AssemblyOriginatorKeyFile>
     <AssemblyVersion>3.0.0</AssemblyVersion>
   </PropertyGroup>

@@ -53,6 +53,9 @@ namespace Certes
         /// The <see cref="StreamingContext"/> 
         /// that contains contextual information about the source or destination.
         /// </param>
+#if NETCOREAPP
+        [Obsolete("This method is not intended to be called directly by user code.")]
+#endif
         protected AcmeException(SerializationInfo info, StreamingContext context)
             : base(info, context)
         {
